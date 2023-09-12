@@ -257,6 +257,7 @@ body{
 .www {
 	background: url('../img/rectangle_8_1401.png')0 0/cover no-repeat;
 	padding: 136px 0 0px 0;
+	background-position: center;
 }
 .www img{
 	max-width: 100%;
