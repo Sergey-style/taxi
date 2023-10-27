@@ -357,7 +357,7 @@ body{
 	border: 1px solid #ffc61a;
 	max-width: 420px;
 	max-height: 500px;
-	margin-left: 219px;
+	margin-left: 0px;
 	border-radius: 20px;
 }
 .yello_column2_lable {
@@ -427,6 +427,9 @@ body{
 .yello_column1 {
 	margin-bottom: 100px;
 }
+.yello_column2{
+	padding: none;
+}	
 }
 /*-----------------------------------------------------------------------*/
 .tarifs {
@@ -519,14 +522,17 @@ body{
 	color: #ffc61a;
 }
 @media(max-width: 940px){
-	.tarifs_columns {
-		flex-direction: column;
-		align-items: center;
+.tarifs_columns {
+	flex-direction: column;
+	align-items: center;
 }
-	.tarifs_column {
-		max-width: 400px;
-		margin-bottom: 35px;
-	   margin-right: 0;
+.tarifs_column {
+	max-width: 400px;
+	margin-bottom: 35px;
+	margin-right: 0;
+}
+.yello_column2 {
+	margin: 0 auto;
 }
 }
 /*--------------------------------------------------------------------------*/
